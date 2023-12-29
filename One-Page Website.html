@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+	<link rel="stylesheet" href="./css/video.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+
+    </head>
+    <body>
+	<section>
+	<div id="home">
+		<div class="home">
+        <video autoplay muted loop>
+          <source src="./videos/background/background.mp4" type="video/mp4" />
+        </video>
+        <div class="overlay"></div>
+        <div class="home-content">
+          <h1>Good food.</h1>
+          <div class="middle-line"></div>
+          <div>
+			<nav>
+				
+					<a style="text-decoration:none" href="#home" id="link"><button>HOME</button></a>
+					<a style="text-decoration:none" href="#gallery"><button>GALLERY</button><a>
+					<a style="text-decoration:none" href="#contact"><button>CONTACT US</button></a>
+				
+			</nav>
+			</div>
+			
+		</div>
+      </div>
+	  </div>
+	</section>  
+	
+	<section>
+        <div id="gallery">
+		<div class="container">
+            <div class="gallery">
+                <figure class="gallery__item gallery__item--1">
+                    <img src="./images/thumbnail_1.jpg" alt="Gallery image 1" class="gallery__img">
+                </figure>
+                <figure class="gallery__item gallery__item--2">
+                    <img src="./images/thumbnail_2.jpg" alt="Gallery image 2" class="gallery__img">
+                </figure>
+                <figure class="gallery__item gallery__item--3">
+                    <img src="./images/thumbnail_3.jpg" alt="Gallery image 3" class="gallery__img">
+                </figure>
+                <figure class="gallery__item gallery__item--4">
+                    <img src="./images/thumbnail_4.jpg" alt="Gallery image 4" class="gallery__img">
+                </figure>
+                <figure class="gallery__item gallery__item--5">
+                    <img src="./images/thumbnail_5.jpg" alt="Gallery image 5" class="gallery__img">
+                </figure>
+                <figure class="gallery__item gallery__item--6">
+                    <img src="./images/thumbnail_6.jpg" alt="Gallery image 6" class="gallery__img">
+                </figure>
+            </div>
+        </div>
+		</div>
+	</section>
+    <section>
+			<div id="contact">
+				<div>
+					<h1>Contact US</h1>
+					<div>
+						<h2><span>W would love to hear from you.</span>
+							<br />Your opinion matters.
+						</h2>
+						<p>
+							Please fill out the following form.
+						</p>
+						<div>
+							<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+								<div class="row">
+									<label class="required" for="name">Your name:</label><br />
+									<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+									<span id="name_validation" class="error_message"></span>
+								</div>
+								<div class="row">
+									<label class="required" for="email">Your email:</label><br />
+									<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+									<span id="email_validation" class="error_message"></span>
+								</div>
+								<div class="row">
+									<label class="required" for="message">Your message:</label><br />
+									<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+									<span id="message_validation" class="error_message"></span>
+								</div>
+    
+								<input id="submit_button" type="submit" value="Send email" />
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	<div>
+			This is my one-page assignment &nbsp;|&nbsp; &copy; 2023
+	</div>
+	
+	</body>
+	
+	
+</html>
